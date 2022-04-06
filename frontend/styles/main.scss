@@ -1,5 +1,203 @@
-.navbar-brand {
-    img {
-        max-height: 40px;
-    }
+body {
+  background-color: #b0b0b0;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+  min-height: 3000px;
 }
+
+// Navigasi
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #059ce8;
+    color: #ffffff;
+  }
+  &:active {
+    background-color: #ff881e;
+  }
+}
+
+// akhir Navigasi
+
+// Header
+header {
+  padding: 180px 0 165px;
+  //   margin-top: -68px;
+  background-image: url("../images/Header@2.jpg");
+  background-size: cover;
+
+  h1,
+  p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #ff881e;
+    color: #ffffff;
+    height: 45px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    &:hover {
+      background-color: #ff9933;
+      color: #fff;
+    }
+
+    &:active {
+      background-color: #1e3771;
+    }
+  }
+}
+// Akhir Header
+
+// main
+
+// Statistik
+.section-stats {
+  margin-top: -60px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 47px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+// Akhir Statistik
+
+// Popular
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #fff;
+    }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 22px;
+    }
+  }
+}
+
+// Akhir Popular
+
+// Section Popular Content
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      // min-width: 278px;
+      min-height: 380px;
+      background-color: #000;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      letter-spacing: 0.02em;
+      color: #fff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      letter-spacing: 0.03em;
+      color: #fff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ff881e;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 20px;
+        min-width: 188px;
+
+        &:hover {
+          background-color: #ff9933;
+          color: #fff;
+        }
+
+        &:active {
+          background-color: #1e3771;
+        }
+      }
+    }
+  }
+}
+
+// Akhir Section Popular Content
+
+// akhir main
